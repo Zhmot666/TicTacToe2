@@ -4,7 +4,7 @@ import psycopg2
 
 
 class DB(ABC):
-
+    # TODO: Дописать методы для логирования партий
     @abstractmethod
     def add_user(self):
         pass
