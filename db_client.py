@@ -31,17 +31,17 @@ class SqliteDB(DB):
         pass
 
 
-class PostgresDB(DB):
-    __CONNECTION = psycopg2.connect('TicTacToe.db')
-
-    def add_user(self):
-        pass
-
-    def find_user(self):
-        pass
-
-    def verify_user(self):
-        pass
+# class PostgresDB(DB):
+#     __CONNECTION = psycopg2.connect('TicTacToe.db')
+#
+#     def add_user(self):
+#         pass
+#
+#     def find_user(self):
+#         pass
+#
+#     def verify_user(self):
+#         pass
 
 
 if __name__ == '__main__':
